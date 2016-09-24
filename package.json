@@ -1,0 +1,36 @@
+{
+  "name": "node-json-text-search-webserver",
+  "version": "1.0.0",
+  "description": "A fuzzy full text search web API based on JSON data.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/node-json-text-search-webserver.git"
+  },
+  "keywords": [
+    "full",
+    "text",
+    "search",
+    "text",
+    "search",
+    "fuzzy",
+    "match",
+    "fuzzy",
+    "text",
+    "search"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/node-json-text-search-webserver/issues"
+  },
+  "homepage": "https://github.com/s-a/node-json-text-search-webserver#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fuse.js": "^2.5.0"
+  }
+}
